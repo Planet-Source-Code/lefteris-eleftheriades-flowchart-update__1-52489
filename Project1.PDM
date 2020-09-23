@@ -1,0 +1,100 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Program Files\Microsoft Visual Studio\VB98\FlowChart\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+E:\WINDOWS\SYSTEM\MSSCRIPT.OCX=
+E:\WINDOWS\SYSTEM\MSIMG32.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+E:\WINDOWS\SYSTEM\comdlg32.ocx=
+E:\WINDOWS\SYSTEM\TABCTL32.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+E:\My Documents\FlowChart\Flow.exe=Yes
+E:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\WINDOWS\SYSTEM\MSIMG32.DLL=Yes
+E:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+E:\WINDOWS\SYSTEM\MSSCRIPT.OCX=Yes
+E:\WINDOWS\SYSTEM\comdlg32.ocx=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+E:\My Documents\FlowChart\Flow.exe=$(AppPath)
+E:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\WINDOWS\SYSTEM\MSIMG32.DLL=$(WinSysPath)
+E:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+E:\WINDOWS\SYSTEM\MSSCRIPT.OCX=$(WinSysPath)
+E:\WINDOWS\SYSTEM\comdlg32.ocx=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+E:\My Documents\FlowChart\Flow.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Flowchart Editor
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Flowchart Editor
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Flowchart Editor]
+Icon1=Flow.exe
+Title1=Flowchart Editor
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=E:\Program Files\Microsoft Visual Studio\VB98\FlowChart\Package
+ProjectFolder=E:\Program Files\Microsoft Visual Studio\VB98\FlowChart
+ServerSideCab=
+File1=E:\Program Files\Microsoft Visual Studio\VB98\FlowChart\Package\setup.exe
+File2=E:\Program Files\Microsoft Visual Studio\VB98\FlowChart\Package\Setup.Lst
+File3=E:\Program Files\Microsoft Visual Studio\VB98\FlowChart\Package\Flow.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
